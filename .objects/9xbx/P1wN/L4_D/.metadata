@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Amazon.com en espanol. Gasta menos. Sonr",
+  "Type": "Screen",
+  "Id": "L4_Dc7njq0qpO8RYhQxBrA",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/L4_Dc7njq0qpO8RYhQxBrA",
+  "ParentRef": "b5x1R7WHZ0eOub50jQKnTQ/P1wN_I3YXEe-hNd_fiplWA",
+  "Created": "2026-01-27T19:32:54.2545258Z",
+  "Updated": "2026-01-27T19:32:54.2545258Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

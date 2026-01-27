@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Amazon.com en espanol. Gasta menos. Sonríe más.",
+  "Type": "App",
+  "Id": "9xbxeuOpPEGv0W3LHTKHhA",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/9xbxeuOpPEGv0W3LHTKHhA",
+  "Created": "2026-01-27T19:32:53.8014177Z",
+  "Updated": "2026-01-27T19:32:53.8014177Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
