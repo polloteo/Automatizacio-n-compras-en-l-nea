@@ -1,5 +1,10 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="BusquedaPagina1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="BusquedaPagina1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="fila" Type="InArgument(x:String)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
     <x:Property Name="producto" Type="InArgument(x:String)">
       <x:Property.Attributes>
         <RequiredArgumentAttribute />
@@ -50,6 +55,20 @@
       <x:String>System.Linq.Expressions</x:String>
       <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
       <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Files.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Numerics</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -106,6 +125,12 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="BusquedaPagina1" sap:VirtualizedContainerService.HintSize="810.4000000000001,434.4" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -127,19 +152,20 @@
           <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="484.79999999999995,1072.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence sap:VirtualizedContainerService.HintSize="484.79999999999995,1351.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Amazon.com en espanol. Gasta menos. Sonr" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1012.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6c63211-c5a2-4d77-a1e7-f3c1ef9f3f28" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Amazon.com en espanol. Gasta menos. Sonr" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1291.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6c63211-c5a2-4d77-a1e7-f3c1ef9f3f28" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,819.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1097.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="precio" />
                   <Variable x:TypeArguments="x:String" Name="precioDepurado" />
@@ -159,18 +185,13 @@
                     <uix:TargetAnchorable BrowserURL="amazon.com" CVScreenId="7f09dd1f-b9e6-45d0-9975-f57dc64dd34c" ContentHash="jYQ1nFBKI0qF5qgrqBTm6g" CvElementArea="1295, 168, 62, 54" CvType="Button" DesignTimeRectangle="1299, 170, 56, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='nav-search-submit-button' tag='INPUT' /&gt;" Guid="2417879e-3e4b-4d1b-9170-e2206b6995ec" InformativeScreenshot="f6a58e1178a5e2f497832419366f3901.png" Reference="b5x1R7WHZ0eOub50jQKnTQ/IEDNbwyNF06JiWOH07uTkg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon.com en espanol. Gasta menos. Sonríe más.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:NClick.Target>
                 </uix:NClick>
-                <uix:NGetText DisplayName="Obtener texto '(166)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,142.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d6c63211-c5a2-4d77-a1e7-f3c1ef9f3f28" TextString="[precio]" Version="V5">
+                <Delay DisplayName="Retraso" Duration="00:00:00" sap:VirtualizedContainerService.HintSize="416,126.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                <uix:NGetText DisplayName="Obtener texto '(166)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,146.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d6c63211-c5a2-4d77-a1e7-f3c1ef9f3f28" TextString="[precio]" Version="V5">
                   <uix:NGetText.Target>
-                    <uix:TargetAnchorable BrowserURL="amazon.com/s" CVScreenId="a5b61a7d-ecee-47cb-b352-abe971cdb4da" ContentHash="qe8hvWQYnkGfSWv20gDlSQ" CvType="AnyWordGroup" DesignTimeRectangle="353, 728, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='a-row' tag='DIV' /&gt;" Guid="6511175e-a962-4a49-b2fb-4f0ec65f0b14" InformativeScreenshot="36093dd81bdaf0899ed9a4de700c386c.png" Reference="b5x1R7WHZ0eOub50jQKnTQ/4HR2htu1f02XADhhgbBK0Q" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='atd-param-exclusion-strategy' title='Amazon.com : pelota de futbol' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                          <uix:Target CVScreenId="a5b61a7d-ecee-47cb-b352-abe971cdb4da" CvTextArea="472, 670, 35, 17" CvTextArgument="(166)" CvType="Text" DesignTimeRectangle="472, 668, 36, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='(166)' tag='SPAN' type='' class='a-size-mini puis-normal-weight-text s-underline-text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='(166)' /&gt;" Guid="3c51959b-35d3-44da-ae8f-07b93eb88f45" SearchSteps="FuzzySelector, CV" />
-                        </scg:List>
-                      </uix:TargetAnchorable.Anchors>
-                    </uix:TargetAnchorable>
+                    <uix:TargetAnchorable BrowserURL="amazon.com/s" CVScreenId="410eb003-2604-4caf-9ed6-76ba3fc23c81" ContentHash="20tIboA35UuL7wo5EEpY2A" DesignTimeRectangle="353, 770, 176, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='a-offscreen' tag='SPAN' /&gt;" Guid="246502fb-a94d-4453-8b89-ce5cc5c8ecba" InformativeScreenshot="869cb11ef4c1e16d3ef3c95ba02002ac.png" Reference="b5x1R7WHZ0eOub50jQKnTQ/4HR2htu1f02XADhhgbBK0Q" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='atd-param-exclusion-strategy' title='Amazon.com : escritorio de madera marca huuger 55x28' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                   </uix:NGetText.Target>
                 </uix:NGetText>
-                <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[precioDepurado]</OutArgument>
                   </Assign.To>
@@ -178,6 +199,7 @@
                     <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(precio, "\d+[\.,]\d{2}").Value]</InArgument>
                   </Assign.Value>
                 </Assign>
+                <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;C&quot;+ (int32.Parse(fila)+1).ToString]" DisplayName="Escribir libro de celda" sap:VirtualizedContainerService.HintSize="416,143.2" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Hoja1" Text="[precioDepurado.ToString]" WorkbookPath="C:\Users\josecastillo\Desktop\listado de productos automatización de proceso.xlsx" />
               </Sequence>
             </ActivityAction>
           </uix:NApplicationCard.Body>

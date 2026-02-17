@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="qe8hvWQYnkGfSWv20gDlSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="20tIboA35UuL7wo5EEpY2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="a5b61a7d-ecee-47cb-b352-abe971cdb4da" CvType="AnyWordGroup" DesignTimeRectangle="353, 728, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='a-row' tag='DIV' /&gt;" Guid="6511175e-a962-4a49-b2fb-4f0ec65f0b14" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='atd-param-exclusion-strategy' title='Amazon.com : pelota de futbol' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="a5b61a7d-ecee-47cb-b352-abe971cdb4da" CvTextArea="472, 670, 35, 17" CvTextArgument="(166)" CvType="Text" DesignTimeRectangle="472, 668, 36, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='(166)' tag='SPAN' type='' class='a-size-mini puis-normal-weight-text s-underline-text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='(166)' /&gt;" Guid="3c51959b-35d3-44da-ae8f-07b93eb88f45" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="36093dd81bdaf0899ed9a4de700c386c.png" xmlns="">0Fb7wjp6PNEWDcmXhbokdnA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="410eb003-2604-4caf-9ed6-76ba3fc23c81" DesignTimeRectangle="353, 770, 176, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='a-offscreen' tag='SPAN' /&gt;" Guid="246502fb-a94d-4453-8b89-ce5cc5c8ecba" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='atd-param-exclusion-strategy' title='Amazon.com : escritorio de madera marca huuger 55x28' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="869cb11ef4c1e16d3ef3c95ba02002ac.png" xmlns="">0IJZZ6SKmM0uf9aPxxlBJBA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>
