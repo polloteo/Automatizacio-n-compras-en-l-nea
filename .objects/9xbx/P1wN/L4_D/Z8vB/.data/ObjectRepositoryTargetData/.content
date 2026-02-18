@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BCYofhhCaU69HeLnTu_jHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ebay.com/sch/i.html" CVScreenId="76152808-8ffe-46e5-8dd6-22db5e488916" CvTextArea="1121, 694, 237, 17" CvTextArgument="Distancia: más cercanos primero" CvType="Text" DesignTimeRectangle="1108, 681, 308, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Distancia: más cercanos primero' class='fake-menu-button__item' tag='A' /&gt;" Guid="56031605-d220-4ca9-bd19-ee001a4ada43" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='9527ebay#{&amp;quot;parentId&amp;quot;:&amp;quot;e0f2815d-a235-49e3-803b-e602bfeee8e4&amp;quot;,&amp;quot;parentPage&amp;quot;:&amp;quot;2351460&amp;quot;,&amp;quot;screenId&amp;quot;:&amp;quot;286b1200-2ab3-4442-8c7f-1e0c2a1771a1&amp;quot;}' title='Pelota De Futbol for sale | eBay' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4af8a3cacafd93ff4da4cc9edce533f.png" xmlns="">0oDBetR2gjEO2jaJSN66weA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

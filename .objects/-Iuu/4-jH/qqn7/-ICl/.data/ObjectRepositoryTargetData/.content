@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aQ5rPw68rkaMcZvcyjuZWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="walmart.com/search" DesignTimeRectangle="450, 391, 319, 649" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='0' tag='A' /&gt;" Guid="950ab91b-902a-492c-becd-ef365fc731ed" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Pelota de futbol - Walmart.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ad4da1e993a79916faa9ec4630d8abd4.png" xmlns="">0-uX4Zt2tWUutK5cQ05uZLw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d2D9hxXQBEi_grEZFYof8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ebay.com/sch/i.html" CVScreenId="e50a5537-f82a-4a9d-a102-6d86a9d4d845" CvElementArea="1168, 425, 250, 43" CvType="InputBox" DesignTimeRectangle="1171, 426, 245, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-label='Ordenar por' tag='BUTTON' type='button' class='fake-menu-button__button btn btn--small btn--secondary' aaname='Ordenar por: Distancia: más cercanos primero' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ordenar por: Distancia: más cercanos primero' /&gt;" Guid="1bf5bfd0-80df-4ccf-b730-03347057bbb3" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='9527ebay#{&amp;quot;parentId&amp;quot;:&amp;quot;1f87ddda-a29f-4374-a5fb-fd39df3e98cc&amp;quot;,&amp;quot;parentPage&amp;quot;:&amp;quot;2351460&amp;quot;,&amp;quot;screenId&amp;quot;:&amp;quot;286b1200-2ab3-4442-8c7f-1e0c2a1771a1&amp;quot;}' title='Pelota De Futbol for sale | eBay' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e50a5537-f82a-4a9d-a102-6d86a9d4d845" CvElementArea="1168, 425, 250, 43" CvType="InputBox" DesignTimeRectangle="1182, 437, 203, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Ordenar por: Distancia: más cercanos primero' parentid='nid-jj3-1' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Ordenar por: Distancia: más cercanos primero' /&gt;" Guid="d7eb2681-47aa-4711-a7ef-8e5520fd73af" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30894cfe11096cdad2f15df9297806f5.png" xmlns="">0IrWC-pxt9k20HPwxODowRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

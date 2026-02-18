@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Champion Sports Retro B…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "-ICllk4UrUyldAXt6i6wUQ",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/-ICllk4UrUyldAXt6i6wUQ",
+  "ParentRef": "b5x1R7WHZ0eOub50jQKnTQ/qqn7dUHamk2Z6jl_9xM-jQ",
+  "Created": "2026-02-17T23:24:43.8210105Z",
+  "Updated": "2026-02-17T23:24:43.8210105Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

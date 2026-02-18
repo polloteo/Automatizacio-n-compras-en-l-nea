@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="20tIboA35UuL7wo5EEpY2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="yr0dkXJ6qEWwYJNyv13Fmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="410eb003-2604-4caf-9ed6-76ba3fc23c81" DesignTimeRectangle="353, 770, 176, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='a-offscreen' tag='SPAN' /&gt;" Guid="246502fb-a94d-4453-8b89-ce5cc5c8ecba" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='atd-param-exclusion-strategy' title='Amazon.com : escritorio de madera marca huuger 55x28' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="869cb11ef4c1e16d3ef3c95ba02002ac.png" xmlns="">0IJZZ6SKmM0uf9aPxxlBJBA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ebay.com/sch/i.html" CVScreenId="2bf43530-2dd2-4357-8c30-b912b9dab048" CvType="AnyWordGroup" DesignTimeRectangle="665, 273, 137, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' class='su-styled-text primary bold large-1 s-card__price' matching:class='fuzzy' fuzzylevel:class='0.0' parentclass='s-card__attribute-row' /&gt;" Guid="8a15f5b1-6ba2-43b7-82c3-c717ff9bb582" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='9527ebay#{&amp;quot;parentId&amp;quot;:&amp;quot;cb010856-7552-4f60-acab-0a8dff817399&amp;quot;,&amp;quot;parentPage&amp;quot;:&amp;quot;2351460&amp;quot;,&amp;quot;screenId&amp;quot;:&amp;quot;480d5058-f250-4569-88e2-2c92d6fb9a2a&amp;quot;}' title='Pelota De Futbol for sale | eBay' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2bf43530-2dd2-4357-8c30-b912b9dab048" CvTextArea="464, 250, 108, 20" CvTextArgument="TRIONDS" CvType="Text" DesignTimeRectangle="330, 190, 309, 320" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='s-card__image' tag='IMG' idx='3' /&gt;" Guid="523809a2-4064-4926-8188-294d01d988e3" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b435c8b5b9e7e256e9cf321fddc66ded.png" xmlns="">087o7WSWbuEytyKNjUaYquQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>

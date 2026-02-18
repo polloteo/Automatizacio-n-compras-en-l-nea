@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gJ0rZISBqUSX5rXVGuZwEg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pacifiko.com/index.php" DesignTimeRectangle="519, 544, 186, 288" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='1501505' tag='IMG' class='img-responsive lazyautosizes lazyloaded' /&gt;" Guid="8982ffdc-af50-43e0-b3f7-1b5c89aa219d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Buscar - Pelota de futbol' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d67b9e0c8b3d02e61fbdcc36bc15007b.png" xmlns="">00LmoyhuHB0yMCdIuZzAIMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

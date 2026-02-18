@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Pacifiko.com - La Tienda en Línea de Gua",
+  "Type": "App",
+  "Id": "fI8DmUwqOU2RkexvEthV7Q",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/fI8DmUwqOU2RkexvEthV7Q",
+  "Created": "2026-02-17T23:41:05.7285191Z",
+  "Updated": "2026-02-17T23:41:05.7285191Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

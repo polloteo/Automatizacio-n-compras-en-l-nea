@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Pacifiko.com - La Tienda en Línea de Gua",
+  "Type": "Screen",
+  "Id": "y9OXDFHQkEWRVPmdxY_-ww",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/y9OXDFHQkEWRVPmdxY_-ww",
+  "ParentRef": "b5x1R7WHZ0eOub50jQKnTQ/u0nUqgqog0Kur_H1xLWFLQ",
+  "Created": "2026-02-17T23:41:05.8012233Z",
+  "Updated": "2026-02-17T23:41:05.8012233Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

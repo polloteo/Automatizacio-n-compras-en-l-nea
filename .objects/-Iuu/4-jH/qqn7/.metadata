@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Walmart  Save Money. Live better.",
+  "Type": "Screen",
+  "Id": "qqn7dUHamk2Z6jl_9xM-jQ",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/qqn7dUHamk2Z6jl_9xM-jQ",
+  "ParentRef": "b5x1R7WHZ0eOub50jQKnTQ/4-jHxndG2U6TDwNQVszKFg",
+  "Created": "2026-02-17T23:24:43.5268899Z",
+  "Updated": "2026-02-17T23:24:43.5268899Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

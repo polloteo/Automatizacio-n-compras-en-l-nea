@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Distancia más cercanos…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Z8vBUTX9eE-3ay3E0bamJQ",
+  "Reference": "b5x1R7WHZ0eOub50jQKnTQ/Z8vBUTX9eE-3ay3E0bamJQ",
+  "ParentRef": "b5x1R7WHZ0eOub50jQKnTQ/L4_Dc7njq0qpO8RYhQxBrA",
+  "Created": "2026-02-17T18:15:19.3332193Z",
+  "Updated": "2026-02-17T18:15:19.3332193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
